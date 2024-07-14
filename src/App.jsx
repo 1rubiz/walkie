@@ -24,7 +24,7 @@ function App() {
   return (
     <BrowserRouter>
       <div>
-        <div className='sticky top-5 left-0 w-full'><Nav/></div>
+        <div className='top-5 left-0 w-full'><Nav/></div>
         <Routes>
           <Route path='/' element={<Landing/>}/>
           <Route path='/one' element={<Imp1/>}/>
