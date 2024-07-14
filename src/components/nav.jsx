@@ -13,7 +13,7 @@ function Nav() {
 		<div className='w-full bg-gray-400 h-12 py-2 px-4 rounded-md my-2'>
 			{/* <Card> */}
 			{/* 	<CardContent className=''> */}
-					<ul className='flex items-center justify-between w-full'>
+					<ul className='flex flex-col md:flex-row items-center justify-between w-full'>
 						<Link to='/'><li>Home</li></Link>
 						<Link to='/one'><li>Implimentation One</li></Link>
 						<Link to='/two'><li>Implimentation Two</li></Link>
