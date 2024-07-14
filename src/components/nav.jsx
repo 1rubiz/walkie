@@ -10,7 +10,7 @@ import {
 import { Link } from 'react-router-dom'
 function Nav() {
 	return (
-		<div className='w-full bg-gray-400 h-12 py-2 px-4 rounded-md my-2'>
+		<div className='w-full bg-gray-400 h-12 py-2 px-4 rounded-md my-2 bg-slate-500'>
 			{/* <Card> */}
 			{/* 	<CardContent className=''> */}
 					<ul className='flex flex-col gap-6 md:gap-2 md:flex-row items-center justify-between w-full'>
