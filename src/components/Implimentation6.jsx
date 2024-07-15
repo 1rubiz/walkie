@@ -28,7 +28,7 @@ function Implimentation6 (){
   return (
     <div>
       {/* <Toggle onToggle={onToggle} /> */}
-      <button onClick={onToggle}>Click to start monitoring....</button>
+      <button className='button rounded-md p-4' onClick={onToggle}>Click to start monitoring....</button>
       {orientationInfo}
       {errorElement}
     </div>

@@ -19,7 +19,7 @@ function Implimentation2() {
 			<Card>
 				<CardContent>
 					<div className="box">
-				      <button onClick={requestAccess}>Request For Gyro Access</button>
+				      <button className='button rounded-md p-4' onClick={requestAccess}>Request For Gyro Access</button>
 				      {error && <div className="error">{error.message}</div>}
 				      <Demo orientation={orientation} />
 				    </div>
