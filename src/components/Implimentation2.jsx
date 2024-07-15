@@ -49,10 +49,11 @@ const Demo = ({ orientation }) => {
   return (
     <div className="bg">
       <div className="hiddenText" style={{ maskPosition, WebkitMaskPosition: maskPosition }}>
-        <div>Hidden Text</div>
-        <div>Hidden Text</div>
-        <div>Hidden Text</div>
-        <div>Hidden Text</div>
+        <div>Gamma: {orientation?.gamma}</div>
+        <div>Beta: {orientation?.beta}</div>
+        <div>Alpha: {orientation?.alpha}</div>
+        <div>Degree : {degree}</div>
+        {/* <div>mask position: {maskPosition}</div> */}
       </div>
       <div className="lens" style={{ transform }} />
     </div>
