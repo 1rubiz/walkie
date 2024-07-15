@@ -15,11 +15,11 @@ function Nav() {
 			{/* 	<CardContent className=''> */}
 					<ul className='flex flex-col gap-6 md:gap-2 md:flex-row items-center justify-between w-full'>
 						<Link to='/'><li>Home</li></Link>
-						<Link to='/one'><li>Implimentation One</li></Link>
-						<Link to='/two'><li>Implimentation Two</li></Link>
+						{/* <Link to='/one'><li>Implimentation One</li></Link> */}
+						{/* <Link to='/two'><li>Implimentation Two</li></Link> */}
 						{/* <Link to='/three'><li>Implimentation Three</li></Link> */}
-						<Link to='/four'><li>Implimentation 4</li></Link>
-						<Link to='/five'><li>Implimentation 5</li></Link>
+						{/* <Link to='/four'><li>Implimentation 4</li></Link> */}
+						{/* <Link to='/five'><li>Implimentation 5</li></Link> */}
 						<Link to='/six'><li>Implimentation 6</li></Link>
 					</ul>
 			{/* 	</CardContent> */}
