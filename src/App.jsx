@@ -8,6 +8,8 @@ import Imp4 from './components/Implimentation4'
 import Imp5 from './components/Implimentation5'
 import Imp6 from './components/Implimentation6'
 import Imp7 from './components/Implimentation7'
+import Imp8 from './components/Implimentation8'
+import Imp9 from './components/Implimentation9'
 import Landing from './components/landing'
 import Nav from './components/nav'
 import {
@@ -36,6 +38,8 @@ function App() {
           <Route path='/five' element={<Imp5/>}/>
           <Route path='/six' element={<Imp6/>}/>
           <Route path='/seven' element={<Imp7/>}/>
+          <Route path='/eight' element={<Imp8/>}/>
+          <Route path='/nine' element={<Imp9/>}/>
         </Routes>
       </div>
     </BrowserRouter>

@@ -22,6 +22,8 @@ function Nav() {
 						{/* <Link to='/five'><li>Implimentation 5</li></Link> */}
 						<Link to='/six'><li>Implimentation 6</li></Link>
 						<Link to='/seven'><li>Implimentation 7</li></Link>
+						<Link to='/eight'><li>Implimentation 8</li></Link>
+						<Link to='/nine'><li>Implimentation 9</li></Link>
 					</ul>
 			{/* 	</CardContent> */}
 			{/* </Card>			 */}
